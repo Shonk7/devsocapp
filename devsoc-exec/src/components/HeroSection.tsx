@@ -47,6 +47,7 @@ const HeroSection: React.FC = () => {
       </Typography>
       <Box display="flex" justifyContent="center" gap={2} flexWrap="wrap">
         <Button
+          className="HeroSection-btn"
           variant="outlined"
           startIcon={<EmailIcon />}
           onClick={handleContactClick}
@@ -54,15 +55,16 @@ const HeroSection: React.FC = () => {
           Contact Me
         </Button>
         <Button
+          className="HeroSection-btn"
           variant="outlined"
           startIcon={<LinkedInIcon />}
           href="https://www.linkedin.com/in/aryan-rajnandan-3a7b17201/"
-          // ngl I only just found out that target="_blank" is a thing
           target="_blank"
         >
           LinkedIn
         </Button>
         <Button
+          className="HeroSection-btn"
           variant="outlined"
           startIcon={<GitHubIcon />}
           href="https://github.com/Shonk7/devsocapp"

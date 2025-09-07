@@ -1,3 +1,13 @@
+/* HeroSection button hover fix */
+.HeroSection-btn.MuiButton-outlined {
+  border-color: #D9807E;
+  color: #D9807E;
+}
+.HeroSection-btn.MuiButton-outlined:hover {
+  background: #D9807E;
+  color: #FFF;
+  border-color: #D9807E;
+}
 /* Navbar title responsive display */
 .navbar-title-desktop {
   display: none;
