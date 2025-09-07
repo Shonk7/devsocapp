@@ -69,7 +69,15 @@ const VisionSection: React.FC = () => {
         Actions
       </Typography>
       
-      <Box sx={{ display: 'flex', gap: 2, alignItems: 'flex-start', mb: 3 }}>
+      <Box
+        sx={{
+          display: 'flex',
+          gap: 2,
+          alignItems: 'flex-start',
+          mb: 3,
+          flexDirection: { xs: 'column', md: 'row' },
+        }}
+      >
         <Box sx={{ flex: 1 }}>
           <Typography variant="body1" sx={{ mb: 2 }}>
             <strong>Event Elevation Grant:</strong> Back at AUNSW, we were able to 
@@ -91,28 +99,29 @@ const VisionSection: React.FC = () => {
           </Typography>
         </Box>
         
-        <Box 
-          sx={{ 
-            borderRadius: 2, 
-            overflow: 'hidden', 
-            boxShadow: 2, 
-            minWidth: 200, 
-            maxWidth: 200,
+        <Box
+          sx={{
+            borderRadius: 2,
+            overflow: 'hidden',
+            boxShadow: 2,
+            minWidth: { xs: '100%', md: 200 },
+            maxWidth: { xs: '100%', md: 200 },
             cursor: 'pointer',
             transition: 'transform 0.2s ease',
+            mt: { xs: 2, md: 0 },
             '&:hover': {
               transform: 'scale(1.05)',
-            }
+            },
           }}
           onClick={() => window.open('https://www.arc.unsw.edu.au/clubs/club-forms/grants/club-elevation-grant', '_blank')}
         >
-          <img 
+          <img
             src={arcElevationGrant}
             alt="Arc Event Elevation Grant - Up to $5,000 funding per event available"
-            style={{ 
-              width: '100%', 
+            style={{
+              width: '100%',
               height: 'auto',
-              display: 'block'
+              display: 'block',
             }}
           />
         </Box>
