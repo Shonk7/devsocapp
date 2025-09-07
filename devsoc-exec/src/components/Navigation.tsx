@@ -27,7 +27,7 @@ const Navigation: React.FC<NavigationProps> = ({
     <AppBar position="sticky" elevation={0}>
       <Toolbar>
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-          DevSoc Executive Application
+          DevSoc Exec App
         </Typography>
         <Box sx={{ display: 'flex', gap: 1 }}>
           <FormControlLabel
