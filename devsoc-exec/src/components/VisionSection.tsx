@@ -83,7 +83,7 @@ const VisionSection: React.FC = () => {
             <strong>💸 Event Elevation Grant:</strong> Back at AUNSW, we were able to 
             secure two Event Elevation Grants for our Roundhouse Events in 2023 and 2024, totalling around $10,000 of funding. 
             I want to bring this strategy to DevSoc to fund flagship events like Starlight. Typically these grants,
-            are only available to clubs with high attendence, held at UNSW and provides novel engagement for Arc members
+            are only available to club events with high attendance, held at UNSW and provides novel engagement for Arc members
             which DevSoc events definitely do.
           </Typography>
           <Typography variant="body1" sx={{ mb: 2 }}>
