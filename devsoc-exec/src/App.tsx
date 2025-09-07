@@ -29,7 +29,7 @@ function App() {
 
   const [enable3D, setEnable3D] = useState(() => {
     const saved = localStorage.getItem("enable3D");
-    return saved ? JSON.parse(saved) : true; // Default to 3D enabled
+    return saved ? JSON.parse(saved) : false; // Default to 3D disabled
   });
 
   useEffect(() => {
