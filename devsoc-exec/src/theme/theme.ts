@@ -5,14 +5,14 @@ export const createCustomTheme = (darkMode: boolean) => {
     palette: {
       mode: darkMode ? "dark" : "light",
       primary: {
-        main: "#6366f1",
-        light: "#a5b4fc",
-        dark: "#4338ca",
+        main: "#D9807E", // DevSoc red
+        light: "#F2B8B5",
+        dark: "#B75B57",
       },
       secondary: {
-        main: "#f59e0b",
-        light: "#fbbf24",
-        dark: "#d97706",
+        main: "#5B8FD8", // DevSoc blue
+        light: "#A3C4F3",
+        dark: "#2C5FA9",
       },
       background: {
         default: darkMode ? "#121212" : "#f7f6f0",
