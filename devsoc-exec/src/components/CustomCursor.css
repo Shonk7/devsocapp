@@ -1,0 +1,74 @@
+.custom-cursor {
+  position: fixed;
+  pointer-events: none;
+  z-index: 99999; /* Maximum z-index to ensure it's always on top */
+  transition: opacity 0.1s ease;
+  opacity: 0;
+  border-radius: 50%;
+  mix-blend-mode: normal; /* Remove color changing effects */
+}
+
+/* Hide cursor on mobile devices */
+@media (max-width: 768px) {
+  .custom-cursor {
+    display: none !important;
+  }
+}
+
+/* Also hide on touch devices */
+@media (hover: none) and (pointer: coarse) {
+  .custom-cursor {
+    display: none !important;
+  }
+}
+
+/* Remove theme-based blend modes */
+.custom-cursor.dark-mode {
+  mix-blend-mode: normal;
+}
+
+.custom-cursor.light-mode {
+  mix-blend-mode: normal;
+}
+
+.custom-cursor.visible {
+  opacity: 1;
+}
+
+/* More targeted cursor hiding - avoid global override */
+body {
+  cursor: none !important;
+}
+
+/* Handle context menus */
+body:hover {
+  cursor: none !important;
+}
+
+/* Hide cursor on interactive elements */
+button,
+a,
+input,
+textarea,
+select,
+.clickable {
+  cursor: none !important;
+}
+
+/* Handle text selection more carefully */
+.custom-cursor-container {
+  cursor: none !important;
+}
+
+.custom-cursor-container * {
+  cursor: none !important;
+}
+
+/* Prevent text selection to avoid cursor conflicts (optional) */
+.no-select {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
