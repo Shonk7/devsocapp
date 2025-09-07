@@ -65,7 +65,7 @@ const HeroSection: React.FC = () => {
         <Button
           variant="outlined"
           startIcon={<GitHubIcon />}
-          href="https://github.com/yourusername"
+          href="https://github.com/Shonk7/devsocapp"
           target="_blank"
         >
           GitHub
