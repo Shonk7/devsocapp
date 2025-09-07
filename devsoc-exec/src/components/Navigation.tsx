@@ -31,12 +31,11 @@ const Navigation: React.FC<NavigationProps> = ({
           component="div"
           sx={{
             flexGrow: 1,
-            display: { xs: 'block', sm: 'block' },
             fontSize: { xs: '1rem', sm: '1.25rem' },
           }}
         >
-          <span style={{ display: 'none' }} className="navbar-title-desktop">DevSoc Executive Application</span>
-          <span style={{ display: 'inline' }} className="navbar-title-mobile">DevSoc Exec</span>
+          <span className="navbar-title-desktop">DevSoc Executive Application</span>
+          <span className="navbar-title-mobile">DevSoc Exec</span>
         </Typography>
         <Box sx={{ display: 'flex', gap: 1 }}>
           <FormControlLabel
