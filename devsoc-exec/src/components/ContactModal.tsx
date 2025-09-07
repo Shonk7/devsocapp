@@ -46,7 +46,7 @@ const ContactModal: React.FC<ContactModalProps> = ({ open, onClose }) => {
             📸 <strong>Instagram:</strong> @shonkisauras
           </Typography>
           <Typography variant="body1" sx={{ mb: 3 }}>
-            💬 <strong>Discord:</strong> @shonk
+            💬 <strong>Discord:</strong> @shonk.
           </Typography>
           
           <Typography variant="h6" sx={{ mb: 2 }}>

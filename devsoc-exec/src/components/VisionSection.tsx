@@ -10,7 +10,7 @@ const VisionSection: React.FC = () => {
       <Box display="flex" alignItems="center" mb={3}>
         <LightbulbIcon color="primary" sx={{ mr: 2, fontSize: 28 }} />
         <Typography variant="h4" component="h2">
-          Visions and Actions ✨
+          Visions and Actions
         </Typography>
       </Box>
 
