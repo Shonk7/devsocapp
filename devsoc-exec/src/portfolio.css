@@ -47,7 +47,7 @@ body {
 
 /* Smooth animations */
 * {
-  transition: all 0.3s ease;
+  transition: background 0.3s, box-shadow 0.3s, border 0.3s;
 }
 
 /* Custom scrollbar */
