@@ -54,16 +54,19 @@ const ContactModal: React.FC<ContactModalProps> = ({ open, onClose }) => {
           </Typography>
         </Box>
         
-        <Box sx={{ 
-          position: 'relative', 
-          paddingBottom: '35%', 
-          height: 0,
-          maxWidth: '500px', 
-          mx: 'auto',
-          borderRadius: 2,
-          overflow: 'hidden',
-          boxShadow: 2
-        }}>
+        <Box
+          sx={{
+            position: 'relative',
+            width: '100%',
+            maxWidth: { xs: '100%', sm: '500px' },
+            mx: 'auto',
+            borderRadius: 2,
+            overflow: 'hidden',
+            boxShadow: 2,
+            aspectRatio: { xs: '9/16', sm: '16/9' },
+            height: 'auto',
+          }}
+        >
           <iframe
             src="https://drive.google.com/file/d/1lRtJWt4imerX6BsnFHTd79pOC4Jf3jW8/preview"
             style={{
