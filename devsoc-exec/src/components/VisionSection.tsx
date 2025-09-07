@@ -95,7 +95,7 @@ const VisionSection: React.FC = () => {
             <strong>📊 Sample Slide Deck:</strong> We should create a consistent slide deck template that all portfolios 
             can use for scenarios in which non-Event portfolios are presenting. This will make our presentations look more professional 
             even in situations where the Events portfolio aren't able to make slides. Also makes it easier to make slides quickly.
-            Not suggesting that every presentations need these slides, but having a template ready to go would be super useful.
+            Not suggesting that all presentations need to follow these slides, but having a template ready to go would be super useful.
           </Typography>
         </Box>
         
