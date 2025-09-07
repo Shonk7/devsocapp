@@ -18,7 +18,7 @@ const ExperienceSection: React.FC = () => {
 
       <ExperienceItem
         title="DevSoc Sponsorships"
-        period="Oct 2024 - Present"
+        period="Nov 2024 - Present"
         description="Sponsorship Subcom. Pretty fun experience working with industry partners. 
         In particular, enjoyed keeping in touch with IMC, Jane Street and 
         Citadel Securities (note: Citadel and Citadel Securities are distinct entities 😆).
