@@ -31,16 +31,6 @@ const ExperienceSection: React.FC = () => {
       <Divider sx={{ my: 2 }} />
 
       <ExperienceItem
-        title="Full Stack Engineer Intern"
-        period="Dec 2024 - Present"
-        description="Engineer (Cadet) at Transport for NSW Coordinator General Operational Strategy and Intelligence team (long ass name ik). Developing TomTom based full-stack applications using React and Java (Spring boot)."
-        backgroundImage={transport}
-        imageHeight={250}
-      />
-
-      <Divider sx={{ my: 2 }} />
-
-      <ExperienceItem
         title="Aunsw President/Sponsorship Director"
         period="Oct 2022 - Dec 2024"
         description="AnimeSoc 2023 VP/Spons Director and President in 2024. Biggest highlights include: working with various sponsors
@@ -49,6 +39,17 @@ const ExperienceSection: React.FC = () => {
         backgroundImage={aunsw}
         imageHeight={280}
       />
+      <Divider sx={{ my: 2 }} />
+
+          <ExperienceItem
+        title="Full Stack Engineer Intern"
+        period="Dec 2024 - Present"
+        description="Engineer (Cadet) at Transport for NSW Coordinator General Operational Strategy and Intelligence team (long ass name ik). Developing TomTom based full-stack applications using React and Java (Spring boot)."
+        backgroundImage={transport}
+        imageHeight={250}
+      />
+
+
     </Card3D>
   );
 };
