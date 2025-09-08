@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { ThemeProvider, CssBaseline, Container } from "@mui/material";
 import { Container as BootstrapContainer, Row, Col } from "react-bootstrap";
-
+import { Analytics } from "@vercel/analytics/next"
 // Import cursor CSS
 import "./components/CustomCursor.css";
 
@@ -88,6 +88,7 @@ function App() {
           </Container>
         </div>
       </Settings3DProvider>
+      <Analytics />
     </ThemeProvider>
   );
 }
